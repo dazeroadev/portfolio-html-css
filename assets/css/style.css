@@ -1,0 +1,96 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--primary: #1683C5;
+	--secondary: #DBFF00;
+	--dark: #313131;
+	--white: #ffffff;
+}
+* {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: var(--dark);
+	color: var(--white);
+}
+button {
+	padding: 6px 12px;
+	border: none;
+	cursor: pointer;
+}
+.btn-primary {
+	background-color: var(--primary);
+	color: var(--white);
+}
+.btn-secondary {
+	background-color: var(--secondary);
+	color: var(--dark);
+}
+button:hover {
+	background-color: var(--white);
+	color: var(--dark);
+}
+/* Header */
+.header {
+	text-align: center;
+	padding: 20px;
+}
+/* Hero */
+.hero {
+	padding: 20px;
+}
+.hero-title {
+	font-size: 22px;
+	font-weight: 700;
+	color: var(--secondary);
+}
+.hero-subtitle {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.hero img {
+	width: 100%;
+}
+/* Intro */
+.intro {
+	padding: 20px;
+	padding-top: 0px;
+}
+/* Portfolio */
+.portfolio {
+	padding: 20px;
+}
+.portfolio h2 {
+	padding-bottom: 20px;
+}
+.portfolio-singol {
+	padding-bottom: 20px;
+}
+.portfolio-singol button {
+	margin-top: 10px;
+}
+/* Contattami */
+.contattami {
+	padding: 20px;
+	padding-top: 0px;
+}
+/* Social */
+.social {
+	padding: 20px;
+	padding-top: 0px;
+}
+.social-link {
+	display: flex;
+}
+/* Footer */
+footer {
+	padding: 20px;
+	padding-top: 0px;
+}
+footer p {
+	font-size: 12px;
+}
